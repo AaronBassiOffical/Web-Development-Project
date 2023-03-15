@@ -1,0 +1,8 @@
+html, body, div, title, h1, h2, h3, h4, section, article, header, footer, nav, p,ul,li,hgroup,a, fieldset{
+    margin:0;
+    padding: 0;
+    border: 0ch;
+    font-size: 100%;
+    vertical-align: baseline;
+    list-style: none;   
+}

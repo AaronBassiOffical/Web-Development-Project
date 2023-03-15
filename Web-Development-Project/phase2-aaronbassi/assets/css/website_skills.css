@@ -1,0 +1,132 @@
+/*base webite content*/
+nav{
+    text-align: center;
+    margin-bottom: 5%;
+    
+}
+.main li{
+    display:inline;
+    font-size: 13pt;
+    margin-right: 1%;
+    margin-left: 0%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 15%;
+    font-weight: lighter;
+}
+
+a{
+    color: rgb(240, 234, 234);
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+}
+
+p{
+    color: white;
+    margin-top: 5%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10pt;
+}
+
+/*first column*/
+.column1{
+    float: left;
+    padding-left: 18%;
+    padding-right: 12%;
+  
+}
+#line1, #line2{
+    position: relative;
+    text-align: center;
+    right: 80px;
+ 
+}
+#line2{
+    margin-top: 9%;
+}
+/*second column*/
+.column2{
+    float: left;
+    width: 33.3%;
+    
+}
+#line3, #line4{
+    position: relative;
+    text-align: center;
+    right: 195px;
+    margin-top: 6%;
+ 
+}
+
+/*third column*/
+.column3{
+    float: left;
+    
+   
+}
+#line5, #line6{
+    position: relative;
+    text-align: center;
+    right: 100px;
+ 
+}
+
+#line6{
+    margin-top: 9%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*headers*/
+#header1, #header2{
+    margin-top: 5%;
+    color: white;
+    font-size: 30pt;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    padding-left: 7%;
+
+}
+
+
+#hr2{
+    width: 20%;
+    margin-right: 74%;
+}
+#hr1{
+    width: 10%;
+    margin-right: 84%;
+}
+
+/*achievements*/
+
+#achievement1, #achievement2, #achievement3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-size: 13pt;
+    font-weight: lighter;
+    
+}
+
+/*footer*/
+#FooterText{
+    text-align: left;
+    padding-left: 5%;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    font-size: 12pt;
+}
+#hr3{
+    width: 90%;
+    margin-left: 5%;
+}
+
